@@ -22,6 +22,7 @@ const customTheme = extendTheme({
   },
   colors: {
     primary: '#C3A873',
+    darkprimary: '#9B945F',
     white: '#FFFFFF',
     black: '#000000',
     link: '#006BB7'

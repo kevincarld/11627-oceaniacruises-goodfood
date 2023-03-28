@@ -22,7 +22,7 @@ export default function Home() {
       <Slider1 />
       {/* <Slider2 /> */}
       {/* <Vista /> */}
-      {/* <Map /> */}
+    {/* <Map /> */}
 
 
 
