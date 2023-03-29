@@ -45,7 +45,6 @@ export default function Slider1() {
       },
       on: {
         slideChange: function(slide) {
-          console.log('slideChange', slide)
           setActiveSlide(slide.activeIndex)
         }
       },
