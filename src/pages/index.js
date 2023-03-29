@@ -19,11 +19,11 @@ export default function Home() {
   return (
     <Layout>
       {/* <Finest /> */}
-      <Slider1 />
+      {/* <Slider1 /> */}
 
-      <Slider2 />
+      {/* <Slider2 /> */}
       {/* <Vista /> */}
-    {/* <Map /> */}
+    <Map />
 
 
 

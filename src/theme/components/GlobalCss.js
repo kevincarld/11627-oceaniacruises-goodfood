@@ -33,7 +33,31 @@ const GlobalCss = () => (
           font-display: swap;
       }
 
+      .cls-1 {
+        fill: none;
+        stroke: #006bb7;
+        stroke-linecap: round;
+        stroke-width: 5px;
+        opacity: 0.533;
+      }
 
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #c3a873;
+      }
+
+      .cls-4 {
+        fill: #006bb7;
+      }
+
+      .cls-5 {
+        fill: #001736;
+        font-size: 10px;
+        font-family: AGaramondPro-Regular, Adobe Garamond Pro;
+      }
       /* spacer */
       p:not(:last-child) {
         margin-bottom: 24px;
