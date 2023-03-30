@@ -19,6 +19,7 @@ const customTheme = extendTheme({
   fonts: {
     body: "Optima, system-ui, sans-serif",
     heading: "adobe-garamond-pro, Adobe GaramlocalGpro, serif",
+    sloop: "sloop-script-three, sloop",
     mono: "Menlo, monospace",
   },
   colors: {

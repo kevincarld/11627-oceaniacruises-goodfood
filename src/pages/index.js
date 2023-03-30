@@ -13,7 +13,7 @@ import Finest from "components/blocks/Finest"
 import Slider1 from "components/blocks/Slider1"
 import Slider2 from "components/blocks/Slider2"
 import Vista from "components/blocks/Vista"
-import Map from "components/blocks/Map"
+import Map from "components/blocks/Map/Map"
 
 export default function Home() {
   return (

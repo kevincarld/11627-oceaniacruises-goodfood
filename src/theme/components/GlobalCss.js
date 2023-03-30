@@ -4,7 +4,7 @@ const GlobalCss = () => (
   <Global
     styles={`
       @font-face {
-        font-family: 'Adobe Garamond Pro';
+        font-family: 'localGpro';
         src: url('./fonts/AGaramondPro-Regular.woff2') format('woff2'),
             url('./fonts/AGaramondPro-Regular.woff') format('woff'),
             url('./fonts/AGaramondPro-Regular.ttf') format('truetype');
