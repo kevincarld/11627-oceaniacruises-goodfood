@@ -26,6 +26,8 @@ export default class MyDocument extends Document {
         <Head>
           {/* see next.config.js for setting up */}
           <AppIcons type={icon} theme={themeColour}/>
+          <link rel="stylesheet" href="https://use.typekit.net/rsz0bdr.css" />
+
         </Head>
 
         <body>

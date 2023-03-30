@@ -33,7 +33,6 @@ export default function App({ Component, pageProps }) {
         <meta property="og:image" content={process.env.appMeta?.ogImage} />
         <meta property="og:image:secure_url" content={process.env.appMeta?.ogImage} />
         <meta name="twitter:image" content={process.env.appMeta?.ogImage} />
-        <link rel="stylesheet" href="https://use.typekit.net/rsz0bdr.css" />
       </Head>
 
        {/* // UNCOMMENT FOR: brandedcontent snow plow scripts
