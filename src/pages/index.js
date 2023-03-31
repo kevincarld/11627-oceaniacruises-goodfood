@@ -18,12 +18,12 @@ import Map from "components/blocks/Map/Map"
 export default function Home() {
   return (
     <Layout>
-      <Finest />
+      {/* <Finest /> */}
 
       {/* <Slider1 /> */}
 
       {/* <Slider2 /> */}
-      {/* <Vista /> */}
+      <Vista />
     {/* <Map /> */}
 
 
