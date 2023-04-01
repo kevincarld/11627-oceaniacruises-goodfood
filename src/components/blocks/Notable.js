@@ -11,13 +11,15 @@ export default function Notable() {
   return (
     <Container>
       <Flex gap={{lg:'53px'}} pt={{lg:'76px'}} direction={{base:'column-reverse', lg:'row'}}>
+
         <Box ml={{d:'-182px'}}>
-          <Img dimension='780x473' w={{base: 'full'}} fit='cover' mock='notable'/>
+          <Img dimension='780x473' w={{base: 'full'}} fit='cover' src='./images/notable-1.jpg'/>
         </Box>
-        <Box pt={{base:'53px'}} pb={{base:'106px'}} maxW={{lg:'456px'}}
-                  pl={{base:'20px',lg:'0px'}} pr={{base:'15px',lg:'0px'}}>
+
+        <Box p={{base: '69px 15px 47px 18px'}} pt={{lg:0}} maxW={{lg:'456px'}} >
           <PreLine {...texts.content}>
             {`Also notable is Vista’s variety of staterooms, including the most spacious standard staterooms at sea, and staterooms for solo travellers at Concierge Level. Vista also has eight bars and lounges and Aquamar Spa, for an entirely new era of wellness. Its 1200 guests are served by 800 crew members.
+
             Vista makes its maiden voyage on a seven-day Founder’s Cruise between Rome and Venice on 13 May 2023, introduced earlier than planned due to exceptional demand. The journey is hosted by Oceania Cruises’ founder Frank J. Del Rio in celebration of the new ship and the brand’s 20th anniversary.`}
           </PreLine>
         </Box>
@@ -35,6 +37,6 @@ const texts = {
     fontSize: {base: '17px',},
     lineHeight: {base: '30px', lg: '32px'}
   },
-  
+
 }
 

@@ -31,13 +31,13 @@ export default function Home() {
         {/* <OnBoard /> */}
 
 
-        <Slider1 />
+        {/* <Slider1 />
 
 
         <Charting />
 
 
-        <Slider2 />
+        <Slider2 /> */}
 
 
         <Notable />
