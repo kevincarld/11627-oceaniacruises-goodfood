@@ -24,11 +24,11 @@ export default function Home() {
         {/* <Intro /> */}
 
 
-        <Finest />
+        {/* <Finest /> */}
 
 
-        <Adventure />
-        <OnBoard />
+        {/* <Adventure /> */}
+        {/* <OnBoard /> */}
 
 
         <Slider1 />

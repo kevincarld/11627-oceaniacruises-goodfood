@@ -64,25 +64,13 @@ export default function Slider1() {
   <Box bg='#FAF8F3' p={{base: '37px 0 77px', d: '127px 0 61px'}}>
     <Box pl={{d: '250px', wide: '450px'}} ref={slider1Ref} className="swiper-container slider1"  overflow='hidden'>
       <Box className="swiper-wrapper">
-        <SwiperSlide className='swiper-slide' >
-          <Img dimension="892x540" fit='cover' h='full' w='full'  mock='slider-1' />
-        </SwiperSlide>
-
-        <SwiperSlide className='swiper-slide' >
-          <Img dimension="892x540" fit='cover' h='full' w='full' mock='slider-2'  />
-        </SwiperSlide>
-
-        <SwiperSlide className='swiper-slide' >
-          <Img dimension="892x540" fit='cover' h='full' w='full' mock='slider-3' />
-        </SwiperSlide>
-
-        <SwiperSlide className='swiper-slide' >
-          <Img dimension="892x540" fit='cover' h='full' w='full' mock='slider-4'  />
-        </SwiperSlide>
-
-        <SwiperSlide className='swiper-slide' >
-          <Img dimension="892x540" fit='cover' h='full' w='full' mock='slider-5' />
-        </SwiperSlide>
+        {
+          [1,2,3,4,5].map((num,index) => (
+            <SwiperSlide key={num} className='swiper-slide' >
+              <Img dimension="892x540" fit='cover' minH={{base: '508px'}} h='full' w='full'  src={`./images/slider-${num}.jpg`} />
+            </SwiperSlide>
+          ))
+        }
       </Box>
     </Box>
 

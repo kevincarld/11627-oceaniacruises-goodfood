@@ -46,7 +46,7 @@ export default function Finest() {
                   </g>
                 </svg>
               </Box>
-              <Text mt={{lg: '10px'}} ml={{lg: '40px'}} {...texts.extra}>AT SEA <sup>®</sup></Text>
+              <Text mt={{lg: '10px'}} ml={{lg: '40px'}} {...texts.extra}>AT SEA <sup style={{left:'-10px'}}>®</sup></Text>
             </Box>
 
             <Text mr={{ wide: '-140px'}} ml={{hd: '30px'}} maxW={{lg:"445px", hd: '490px'}} mt="52px" mb="69px" px={{base:"18px", lg: "0"}} pr={{lg:"35px", d:0}} {...texts.content}>
