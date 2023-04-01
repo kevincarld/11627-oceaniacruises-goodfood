@@ -40,11 +40,11 @@ export default function Home() {
         <Slider2 /> */}
 
 
-        <Notable />
+        {/* <Notable /> */}
 
 
-        {/* <Vista /> */}
-        {/* <Map /> */}
+        <Vista />
+        <Map />
 
 
         {/* <Footer /> */}
