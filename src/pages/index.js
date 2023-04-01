@@ -15,52 +15,40 @@ import Slider2 from "components/blocks/Slider2"
 import Vista from "components/blocks/Vista"
 import Map from "components/blocks/Map/Map"
 
+import { Box } from "@chakra-ui/react"
 export default function Home() {
   return (
     <Layout>
-      {/* <Finest /> */}
-
-      {/* <Slider1 /> */}
-
-      {/* <Slider2 /> */}
-      <Vista />
-    {/* <Map /> */}
+      <Box overflow='hidden'>
+        {/* <Hero /> */}
+        {/* <Intro /> */}
 
 
+        <Finest />
 
 
+        <Adventure />
+        <OnBoard />
 
 
-
-{/*
-      <Hero />
-      <Intro />
+        <Slider1 />
 
 
-      <Finest />
+        {/* <Charting /> */}
 
 
-      <Adventure />
-      <OnBoard />
+        {/* <Slider2 /> */}
 
 
-      <Slider1 />
+        {/* <Notable /> */}
 
 
-      <Charting />
+        {/* <Vista /> */}
+        {/* <Map /> */}
 
 
-      <Slider2 />
-
-
-      <Notable />
-
-
-      <Vista />
-      <Map />
-
-
-      <Footer />  */}
+        {/* <Footer /> */}
+      </Box>
 
     </Layout>
   )

@@ -17,9 +17,9 @@ export default function Layout({children}) {
     <ChakraProvider resetCSS theme={customTheme}>
       <GuideLines />
 
-      <DefaultLayout>
+      <MotionLayout>
         {children}
-      </DefaultLayout>
+      </MotionLayout>
 
       <GlobalCss />
     </ChakraProvider>
