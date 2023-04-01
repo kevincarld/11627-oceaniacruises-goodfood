@@ -27,6 +27,8 @@ export default function Slider1() {
       slidesPerView: 1,
       speed: 1300,
       spaceBetween: 20,
+      centeredSlides: true,
+
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
@@ -62,7 +64,7 @@ export default function Slider1() {
 
   return (
   <Box bg='#FAF8F3' p={{base: '37px 0 77px', d: '127px 0 61px'}}>
-    <Box pl={{d: '250px', wide: '450px'}} ref={slider1Ref} className="swiper-container slider1"  overflow='hidden'>
+    <Box  ref={slider1Ref} className="swiper-container slider1"  overflow='hidden'>
       <Box className="swiper-wrapper">
         {
           [1,2,3,4,5].map((num,index) => (

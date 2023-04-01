@@ -7,7 +7,7 @@ import { useInView } from "framer-motion"
 export default function BrightCoveVideo({script, dataPlayer, dataVideoId, ...rest}) {
 
   const ref = React.useRef(null)
-  const isInView = useInView(ref, { margin: '0px 0px -150px 0px'})
+  // const isInView = useInView(ref, { margin: '0px 0px -150px 0px'})
 
   React.useEffect(() => {
     const jsScript = document.createElement('script');
@@ -20,34 +20,34 @@ export default function BrightCoveVideo({script, dataPlayer, dataVideoId, ...res
     }
   }, [])
 
-  React.useEffect(() => {
-    const video = document.querySelector('.video-js');
-    const videoID = video?.getAttribute('id');
-    const player = window?.videojs?.getPlayer(videoID);
+  // React.useEffect(() => {
+  //   const video = document.querySelector('.video-js');
+  //   const videoID = video?.getAttribute('id');
+  //   const player = window?.videojs?.getPlayer(videoID);
 
 
-    if(video && player){
-      if (isInView) {
-        if (player.currentTime() !== 0 || player.currentTime() === 0) {
-          player.ready(async () => {
-            const promise = player.play();
-            if (promise !== undefined) {
-              promise
-                .then(() => {})
-                .catch(() => {
-                  // console.log("Video: PAWING");
-                  player.play();
-                });
-            }
-          });
-        }
-      } else if (!player.paused()) {
-        player.pause();
-      } else {
-        player.pause();
-      }
-    }
-  }, [isInView])
+  //   if(video && player){
+  //     if (isInView) {
+  //       if (player.currentTime() !== 0 || player.currentTime() === 0) {
+  //         player.ready(async () => {
+  //           const promise = player.play();
+  //           if (promise !== undefined) {
+  //             promise
+  //               .then(() => {})
+  //               .catch(() => {
+  //                 // console.log("Video: PAWING");
+  //                 player.play();
+  //               });
+  //           }
+  //         });
+  //       }
+  //     } else if (!player.paused()) {
+  //       player.pause();
+  //     } else {
+  //       player.pause();
+  //     }
+  //   }
+  // }, [isInView])
 
   if(!script || !dataPlayer || !dataVideoId) return null
 
@@ -70,8 +70,7 @@ export default function BrightCoveVideo({script, dataPlayer, dataVideoId, ...res
         data-playlist-id=""
         data-application-id=""
         class="vjs-fluid"
-        loop
-        muted
+        controls
       />
     </Box>
   )

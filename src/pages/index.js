@@ -34,13 +34,13 @@ export default function Home() {
         <Slider1 />
 
 
-        {/* <Charting /> */}
+        <Charting />
 
 
-        {/* <Slider2 /> */}
+        <Slider2 />
 
 
-        {/* <Notable /> */}
+        <Notable />
 
 
         {/* <Vista /> */}

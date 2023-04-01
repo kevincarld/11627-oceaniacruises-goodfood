@@ -25,6 +25,7 @@ export default function Slider2() {
       slidesPerView: 1,
       speed: 1300,
       spaceBetween: 39,
+      centeredSlides: true,
       breakpoints: {
         1280: {
           slidesPerView: 1.5,
@@ -49,38 +50,47 @@ export default function Slider2() {
   return (
     <Box bg='#F6F1E8' p={{base: '8px 0 45px', d: '105px 0 105px'}}>
       <Box pos='relative'>
-        <Box pl={{d: '100px', wide: '290px'}} ref={slider2Ref} className="swiper-container slider2"  overflow='hidden'>
+        <Box ref={slider2Ref} className="swiper-container slider2"  overflow='hidden'>
           <Box className="swiper-wrapper">
             <SwiperSlide className='swiper-slide' >
-              {/* <BrightCoveVideo
+              <BrightCoveVideo
                 script={'https://players.brightcove.net/6165065566001/WkAEp4m5G_default/index.min.js'}
                 dataPlayer={'WkAEp4m5G'}
-                dataVideoId={'6323356171112'}
-              /> */}
-              <Img dimension="1336x751" fit='cover' h='full' w='full'  mock='slider-1' />
+                dataVideoId={'6323800475112'}
+              />
             </SwiperSlide>
 
             <SwiperSlide className='swiper-slide' >
-              <Img dimension="1336x751" fit='cover' h='full' w='full'  mock='slider-1' />
+              <BrightCoveVideo
+                script={'https://players.brightcove.net/6165065566001/WkAEp4m5G_default/index.min.js'}
+                dataPlayer={'WkAEp4m5G'}
+                dataVideoId={'6323803636112'}
+              />
             </SwiperSlide>
 
             <SwiperSlide className='swiper-slide' >
-              <Img dimension="1336x751" fit='cover' h='full' w='full' mock='slider-3' />
+              <BrightCoveVideo
+                script={'https://players.brightcove.net/6165065566001/WkAEp4m5G_default/index.min.js'}
+                dataPlayer={'WkAEp4m5G'}
+                dataVideoId={'6323803028112'}
+              />
             </SwiperSlide>
 
             <SwiperSlide className='swiper-slide' >
-              <Img dimension="1336x751" fit='cover' h='full' w='full' mock='slider-4'  />
+              <BrightCoveVideo
+                script={'https://players.brightcove.net/6165065566001/WkAEp4m5G_default/index.min.js'}
+                dataPlayer={'WkAEp4m5G'}
+                dataVideoId={'6323800968112'}
+              />
             </SwiperSlide>
 
-            <SwiperSlide className='swiper-slide' >
-              <Img dimension="1336x751" fit='cover' h='full' w='full' mock='slider-5' />
-            </SwiperSlide>
           </Box>
         </Box>
 
         <Box className="arrow-holder2"
           zIndex={100}
           w='full'
+          h='0'
           sx={{
             pos: {lg: 'absolute'},
             top: {lg: '50%'},
