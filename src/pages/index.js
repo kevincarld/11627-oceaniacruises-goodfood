@@ -20,30 +20,31 @@ export default function Home() {
   return (
     <Layout>
       <Box overflow='hidden'>
-        {/* <Hero /> */}
-        {/* <Intro /> */}
+        <Hero />
+        <Intro />
 
 
-        {/* <Finest /> */}
+        <Finest />
 
 
-        {/* <Adventure /> */}
-        {/* <OnBoard /> */}
+        <Adventure />
+        <OnBoard />
 
 
-        {/* <Slider1 />
+        <Slider1 />
 
 
         <Charting />
 
 
-        <Slider2 /> */}
+        <Slider2 />
 
 
-        {/* <Notable /> */}
+        <Notable />
 
 
         <Vista />
+
         <Map />
 
 
