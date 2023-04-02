@@ -67,6 +67,9 @@ const GlobalCss = () => (
         }
       }
 
+      .chakra-popover__content:focus-visible {
+        box-shadow: none!important;
+      }
     `}
   />
 )

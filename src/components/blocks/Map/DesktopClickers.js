@@ -135,6 +135,7 @@ export default function DesktopClickers({desktopScale, controllers}) {
                         dimension='516x337'
                         mx='auto'
                         mock='venice'
+                        src='./images/venice.jpg'
                         borderRadius='lg'
                       />
                       <Stack mt='30px'>
@@ -198,6 +199,7 @@ export default function DesktopClickers({desktopScale, controllers}) {
                         dimension='516x337'
                         mx='auto'
                         mock='zadar'
+                        src='./images/zadar.jpg'
                         borderRadius='lg'
                       />
                       <Stack mt='40px'>
@@ -263,6 +265,7 @@ export default function DesktopClickers({desktopScale, controllers}) {
                         dimension='516x337'
                         mx='auto'
                         mock='dubro'
+                        src='./images/dubro.jpg'
                         borderRadius='lg'
                       />
                       <Stack mt='40px'>
@@ -328,6 +331,7 @@ export default function DesktopClickers({desktopScale, controllers}) {
                         dimension='516x337'
                         mx='auto'
                         mock='corfu'
+                        src='./images/corfu.jpg'
                         borderRadius='lg'
                       />
                       <Stack mt='40px'>
@@ -392,6 +396,7 @@ export default function DesktopClickers({desktopScale, controllers}) {
                         dimension='516x337'
                         mx='auto'
                         mock='argo'
+                        src='./images/argo.jpg'
                         borderRadius='lg'
                       />
                       <Stack mt='40px'>
@@ -458,6 +463,7 @@ export default function DesktopClickers({desktopScale, controllers}) {
                         dimension='516x337'
                         mx='auto'
                         mock='messina'
+                        src='./images/messina.jpg'
                         borderRadius='lg'
                       />
                       <Stack mt='40px'>
@@ -523,6 +529,7 @@ export default function DesktopClickers({desktopScale, controllers}) {
                         dimension='516x337'
                         mx='auto'
                         mock='sorrento'
+                        src='./images/sorrento.jpg'
                         borderRadius='lg'
                       />
                       <Stack mt='40px'>
@@ -587,6 +594,7 @@ export default function DesktopClickers({desktopScale, controllers}) {
                         dimension='516x337'
                         mx='auto'
                         mock='rome'
+                        src='./images/rome.jpg'
                         borderRadius='lg'
                       />
                       <Stack mt='40px'>

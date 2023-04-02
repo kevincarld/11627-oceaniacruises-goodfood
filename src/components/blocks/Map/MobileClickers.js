@@ -86,6 +86,7 @@ export default function MobileClickers({ scale }) {
                         dimension='314x205'
                         mx='auto'
                         mock='dubro'
+                        src='./images/dubro.jpg'
                         borderRadius='lg'
                       />
                       <Stack mt='30px'>
@@ -131,6 +132,7 @@ export default function MobileClickers({ scale }) {
                         mx='auto'
                         dimension={'314x205'}
                         mock='corfu'
+                        src='./images/corfu.jpg'
                         borderRadius='lg'
                       />
                       <Stack mt='30px'>
@@ -176,6 +178,7 @@ export default function MobileClickers({ scale }) {
                         mx='auto'
                         dimension={'314x205'}
                         mock='argo'
+                        src='./images/argo.jpg'
                         borderRadius='lg'
                       />
                       <Stack mt='30px'>
@@ -221,6 +224,7 @@ export default function MobileClickers({ scale }) {
                         mx='auto'
                         dimension={'314x205'}
                         mock='messina'
+                        src='./images/messina.jpg'
                         borderRadius='lg'
                       />
                       <Stack mt='30px'>
@@ -265,6 +269,7 @@ export default function MobileClickers({ scale }) {
                         mx='auto'
                         dimension={'314x205'}
                         mock='sorrento'
+                        src='./images/sorrento.jpg'
                         borderRadius='lg'
                       />
                       <Stack mt='30px'>
@@ -308,6 +313,7 @@ export default function MobileClickers({ scale }) {
                         mx='auto'
                         dimension={'314x205'}
                         mock='rome'
+                        src='./images/rome.jpg'
                         borderRadius='lg'
                       />
                       <Stack mt='30px'>
@@ -352,6 +358,7 @@ export default function MobileClickers({ scale }) {
                         mx='auto'
                         dimension={'314x205'}
                         mock='zadar'
+                        src='./images/zadar.jpg'
                         borderRadius='lg'
                       />
                       <Stack mt='30px'>
@@ -396,6 +403,7 @@ export default function MobileClickers({ scale }) {
                         mx='auto'
                         dimension={'314x205'}
                         mock='venice'
+                        src='./images/venice.jpg'
                         borderRadius='lg'
                       />
                       <Stack mt='30px'>
