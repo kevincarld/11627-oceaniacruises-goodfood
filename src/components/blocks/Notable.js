@@ -9,7 +9,7 @@ import Figure from 'components/util/Figure'
 export default function Notable() {
 
   return (
-    <Container>
+    <Container pb={{d: '100px', wide: '178px'}}>
       <Flex gap={{lg:'53px'}} pt={{lg:'76px'}} direction={{base:'column-reverse', lg:'row'}}>
 
         <Box ml={{d:'-182px'}}>
