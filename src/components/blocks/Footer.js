@@ -5,13 +5,17 @@ import { mock } from 'utils/common'
 import Container from '../util/Container'
 import Img from '../util/Img'
 import Figure from 'components/util/Figure'
-
+import { motion } from 'framer-motion'
 
 export default function Footer() {
 
   return (
     <Container pt={{base: '166px', lg: '300px'}} pb={{base: '150px', lg: '200px'}}>
-      <Center>
+      <Center as={motion.div}
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0, transition: {duration: 2} }}
+        viewport={{once: true}}
+      >
         <Box textAlign='center' color='white'>
           <Box pos='relative' left={{lg: '-40px'}}>
             <Text ml={{base: '60px', sm: '60px', md: '180px'}} {...texts.heading}>Luxurious</Text>
