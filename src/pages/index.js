@@ -80,20 +80,20 @@ export default function Home() {
             <Map />
           </Box>
 
-          <Box ref={target3} pos='relative'  zIndex={10}>
+          <Box ref={target3} pos='relative' zIndex={10} minH={{d: '1154px'}}>
             <MaskMover target={target3}>
-              <Img draggable='false' fit='cover' dimension='1920x900' h='full' w='full' src={'./images/fixed.jpg'} />
+              <Img draggable='false' fit='cover' dimension='1920x900' h='full' w='full' src={'./images/footer-bg.jpg'} />
             </MaskMover>
 
             <Box pos='absolute' backdropFilter={'blur(5px) '} inset='0 0 0 0' zIndex={12} />
 
-            <Box
-            pos='absolute'
-            inset='0 0 0 0'
-            display={{base: 'block', d:'none'}}
-          >
-            <Img draggable='false' fit='cover' dimension='1920x900' h='full' w='full' src={'./images/fixed.jpg'} />
-          </Box>
+              <Box
+              pos='absolute'
+              inset='0 0 0 0'
+              display={{base: 'block', d:'none'}}
+            >
+              <Img draggable='false' fit='cover' dimension='1920x900' h='full' w='full' src={'./images/footer-bg.jpg'} />
+            </Box>
 
           <Box pos='relative' zIndex={20}>
             <Footer />
