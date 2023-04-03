@@ -5,7 +5,7 @@ import { mock } from 'utils/common'
 import Container from '../util/Container'
 import Img from '../util/Img'
 import Figure from 'components/util/Figure'
-
+import NineLink from 'components/util/NineLink'
 
 export default function OnBoard() {
 
@@ -56,7 +56,7 @@ export default function OnBoard() {
 
       <Box mb={{base: '90px'}} pl={{base:'18px',lg:'120px'}} pr={{base:'18px'}}>
         <Text {...texts.content} maxW='415px'>
-          at <Link textDecor='underline'>The Culinary Center</Link>, whose chef-instructors have a deep knowledge and passion for food, whether you want to master the basics of cooking fish, learn how to use lemons for zing, or get to know Nordic, Sicilian or ancient cuisines.
+          at <NineLink href='https://ad.doubleclick.net/ddm/clk/553201392;362643756;h' color='white' textDecor='underline'>The Culinary Center</NineLink>, whose chef-instructors have a deep knowledge and passion for food, whether you want to master the basics of cooking fish, learn how to use lemons for zing, or get to know Nordic, Sicilian or ancient cuisines.
         </Text>
       </Box>
     </Flex>

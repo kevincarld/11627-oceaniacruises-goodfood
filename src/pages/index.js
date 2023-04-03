@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <Layout>
       <Box pos='relative' overflow='hidden'>
-        <FeatureHeader />
+        <FeatureHeader href='https://www.oceaniacruises.com/' />
 
         <Hero />
 
@@ -102,7 +102,7 @@ export default function Home() {
             <Footer />
           </Box>
 
-          <FeatureFooter />
+          <FeatureFooter href={'https://www.oceaniacruises.com/'} />
         </Box>
 
       </Box>

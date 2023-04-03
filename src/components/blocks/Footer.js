@@ -34,7 +34,7 @@ export default function Footer() {
             exquisitely crafted cuisine, and expertly curated travel experiences`}
           </PreLine>
 
-          <Text fontSize='20px' mb='0!important' color='#F6F1E8' textTransform={'uppercase'}>
+          <Text as={Link} href='https://www.oceaniacruises.com/' target='_blank' referrer='sponsored noreferrer' fontSize='20px' mb='0!important' color='#F6F1E8' textTransform={'uppercase'}>
             VISIT oceaniacruises.com
           </Text>
 
@@ -42,7 +42,7 @@ export default function Footer() {
             Call 1300 355 200 or consult your travel advisor.
           </Text>
 
-          <Button bgColor='primary' color='white' p={{base:'13px 48px'}} borderRadius='0' mt={{base:'20px'}} >
+          <Button as={Link} href='https://www.oceaniacruises.com/' target='_blank' referrer='sponsored noreferrer' _hover={{textDecor:'none'}} bgColor='primary' color='white' p={{base:'13px 48px'}} borderRadius='0' mt={{base:'20px'}} >
             READ MORE
           </Button>
 

@@ -5,8 +5,7 @@ import { mock } from 'utils/common'
 import Container from '../util/Container'
 import Img from '../util/Img'
 import Figure from 'components/util/Figure'
-
-
+import NineLink from 'components/util/NineLink'
 export default function Adventure() {
 
   return (
@@ -31,8 +30,7 @@ export default function Adventure() {
           </Text>
 
           <Text {...texts.content} maxW='772px'>
-            Even better? You can discover the gourmet side of your destinations with Oceania Cruises’
-            <Link href='/' color='link' textDecor='underline'> Culinary Discovery</Link> Tours. Guests can venture off the beaten track, enjoy traditional food markets, and dine at renowned shoreside restaurants. Discerning travellers also have the chance to learn something new, whether cooking with a Venetian master chef or getting familiar with Caribbean spices at a cooking studio in St. Lucia.
+            Even better? You can discover the gourmet side of your destinations with Oceania Cruises’ <NineLink href='https://ad.doubleclick.net/ddm/clk/553201392;362643756;h'  textDecor='underline'>Culinary Discovery</NineLink> Tours. Guests can venture off the beaten track, enjoy traditional food markets, and dine at renowned shoreside restaurants. Discerning travellers also have the chance to learn something new, whether cooking with a Venetian master chef or getting familiar with Caribbean spices at a cooking studio in St. Lucia.
           </Text>
 
           <Box mt='49px' mx='auto' w={{base: '83px'}} h={{base: '1px'}} bg='primary' />

@@ -5,6 +5,7 @@ import { mock } from 'utils/common'
 import Container from '../util/Container'
 import Img from '../util/Img'
 import Figure from 'components/util/Figure'
+import NineLink from 'components/util/NineLink'
 
 export default function Notable() {
 
@@ -20,7 +21,7 @@ export default function Notable() {
           <PreLine {...texts.content}>
             {`Also notable is Vista’s variety of staterooms, including the most spacious standard staterooms at sea, and staterooms for solo travellers at Concierge Level. Vista also has eight bars and lounges and Aquamar Spa, for an entirely new era of wellness. Its 1200 guests are served by 800 crew members.
 
-            Vista makes its maiden voyage on a seven-day Founder’s Cruise between Rome and Venice on 13 May 2023, introduced earlier than planned due to exceptional demand. The journey is hosted by Oceania Cruises’ founder Frank J. Del Rio in celebration of the new ship and the brand’s 20th anniversary.`}
+            Vista makes its maiden voyage on a seven-day`} <NineLink href='https://www.oceaniacruises.com/mediterranean-cruises/rome-to-venice-VIS230513/' textDecor='underline'>Founder’s Cruise</NineLink> {`between Rome and Venice on 13 May 2023, introduced earlier than planned due to exceptional demand. The journey is hosted by Oceania Cruises’ founder Frank J. Del Rio in celebration of the new ship and the brand’s 20th anniversary.`}
           </PreLine>
         </Box>
       </Flex>

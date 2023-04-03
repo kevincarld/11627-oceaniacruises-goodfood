@@ -6,7 +6,7 @@ import Container from '../util/Container'
 import Img from '../util/Img'
 import Figure from 'components/util/Figure'
 
-
+import NineLink from 'components/util/NineLink'
 export default function Intro() {
 
   return (
@@ -63,7 +63,7 @@ export default function Intro() {
           </Box>
 
           <PreLine {...texts.content}  maxW='650px' mx='auto' textAlign={{base:'start',lg:'center'}} px={{base: '18px', lg:0}} pt={{base:'57px'}}>
-            {`Catering to only 650 to 1238 guests, the line’s small, luxurious ships such as `} <Link color='link' textDecor='underline'>Regatta</Link> , <Link color='link' textDecor='underline'>Marina</Link> and brand-new <Link color='link' textDecor='underline'>Vista</Link> {`feature stunning interiors, imaginative dining concepts, and the highest standards of residential-style luxury.
+            {`Catering to only 650 to 1238 guests, the line’s small, luxurious ships such as `} <NineLink href='https://ad.doubleclick.net/ddm/clk/553201362;362248100;o' textDecor='underline'>Regatta</NineLink> , <NineLink href='https://ad.doubleclick.net/ddm/clk/553201556;362246648;i' textDecor='underline'>Marina</NineLink> and brand-new <NineLink href='https://ad.doubleclick.net/ddm/clk/553201565;362246648;i' textDecor='underline'>Vista</NineLink> {`feature stunning interiors, imaginative dining concepts, and the highest standards of residential-style luxury.
 
             Guests can enjoy spaces and sanctuaries for every mood, from restorative spas to charming libraries and a variety of lounges, bars and restaurants. Elegant furniture and elevated art give these ships a boutique-hotel feel, providing a sophisticated experience matched by attentive and personalised service.`}
           </PreLine>
