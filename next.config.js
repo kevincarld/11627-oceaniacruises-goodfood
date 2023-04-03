@@ -24,7 +24,7 @@ const nextConfig = {
       siteName: 'Good Food', // The Sydney Morning Herald, Good Food
       icon: 'goodfood', // smh, goodfood, nine, afr, traveller
       themeColour: '#C3A873', // hex
-      ogImage: 'tbd',
+      ogImage: 'https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2023/04/11627-Oceania-SOCIAL-1920x1080-1.jpg',
       date: '01-04-23', // e.g 03-12-23
       year: '2023' // e.g 2023
     },
