@@ -85,7 +85,7 @@ export default function DesktopClickers({desktopScale, controllers}) {
       </svg>
       <svg  width="618" height="617.789" viewBox="0 0 618 617.789">
         <g id="Group_6958" data-name="Group 6958" transform="translate(-611 -12327)">
-          <Box as='g' id='location-lines' opacity={!(!dubro.isOpen && !corfu.isOpen && !argo.isOpen && !messina.isOpen && !sorrento.isOpen && !rome.isOpen && !zadar.isOpen && !venice.isOpen ) ? '0' : 1}>
+          <Box as='g' id='location-lines' transition='opacity 400ms ease-in-out' opacity={!(!dubro.isOpen && !corfu.isOpen && !argo.isOpen && !messina.isOpen && !sorrento.isOpen && !rome.isOpen && !zadar.isOpen && !venice.isOpen ) ? '0' : 1}>
             <path id="Path_2690" data-name="Path 2690" d="M702.676,12345.809s34.094,63.77,132.176,94.348" transform="translate(40.711 -0.086)" fill="none" stroke="#006bb7" stroke-linecap="round" stroke-width="6" opacity="0.533"/>
             <path id="Path_2691" data-name="Path 2691" d="M695.563,12334.387s45.852,87.434,123.008,106.324" transform="translate(180 110)" fill="none" stroke="#006bb7" stroke-linecap="round" stroke-width="6" opacity="0.533"/>
             <path id="Path_2692" data-name="Path 2692" d="M678.587,12375.754s76.509,114.572,171.958,119.686" transform="matrix(0.839, 0.545, -0.545, 0.839, 7172.813, 1802.473)" fill="none" stroke="#006bb7" stroke-linecap="round" stroke-width="6" opacity="0.533"/>
