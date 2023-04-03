@@ -10,7 +10,7 @@ import Figure from 'components/util/Figure'
 export default function Intro() {
 
   return (
-    <Box pos='relative'>
+    <Box pos='relative' zIndex={123} >
 
       <Grid justifyContent='center' alignItems='center' overflowX='hidden'
             pt={{base:'251px',lg:'275px'}} pb={{base:'134px',lg:'117px'}} textAlign='center'

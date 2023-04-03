@@ -10,11 +10,8 @@ import Figure from 'components/util/Figure'
 export default function Footer() {
 
   return (
-    <Flex direction='column' textAlign='center' 
-        justify='center' align='center' pt={{lg:'397px'}} pb={{lg:'271px'}}
-      bg='linear-gradient(180deg, rgba(255,255,255,1)
-      0%, rgba(164,164,164,1) 77%,
-       rgba(99,99,99,1) 100%)'>
+    <Flex direction='column' textAlign='center'
+        justify='center' align='center' pt={{lg:'397px'}} pb={{lg:'271px'}}>
       <Text {...texts.heading}>
         LUXURIOUS
       </Text>

@@ -16,39 +16,90 @@ import Vista from "components/blocks/Vista"
 import Map from "components/blocks/Map/Map"
 
 import { Box } from "@chakra-ui/react"
+import Img from "components/util/Img"
+import { useRef } from "react"
+import MaskMover from "components/util/MaskMover"
+
 export default function Home() {
+  const target= useRef(null)
+  const target2= useRef(null)
+  const target3= useRef(null)
   return (
     <Layout>
-      <Box overflow='hidden'>
+      <Box pos='relative' overflow='hidden'>
+
         <Hero />
-        <Intro />
+
+        <Box ref={target} pos='relative' zIndex={10}>
+          <MaskMover target={target}>
+            <Img draggable='false' fit='cover' dimension='1920x900' h='full' w='full' src={'./images/fixed.jpg'} />
+          </MaskMover>
+
+          <Box className='mas' pos='absolute' backdropFilter={'blur(41px) '} bg='rgba(246,241,232, .7)' inset='0 0 0 0' zIndex={12} />
+
+          <Box
+            pos='absolute'
+            inset='0 0 0 0'
+            display={{base: 'block', d:'none'}}
+          >
+            <Img draggable='false' fit='cover' dimension='1920x900' h='full' w='full' src={'./images/fixed.jpg'} />
+
+          </Box>
+          <Intro />
+        </Box>
 
 
-        <Finest />
+          <Finest />
 
+          <Box ref={target2} pos='relative'  zIndex={10}>
+            <MaskMover target={target2}>
+              <Img draggable='false' fit='cover' dimension='1920x900' h='full' w='full' src={'./images/fixed.jpg'} />
+            </MaskMover>
 
-        <Adventure />
-        <OnBoard />
+            <Box pos='absolute' backdropFilter={'blur(41px) '} bg='rgba(246,241,232, .7)' inset='0 0 0 0' zIndex={12} />
 
+            <Box
+            pos='absolute'
+            inset='0 0 0 0'
+            display={{base: 'block', d:'none'}}
+          >
+            <Img draggable='false' fit='cover' dimension='1920x900' h='full' w='full' src={'./images/fixed.jpg'} />
+          </Box>
 
-        <Slider1 />
+            <Adventure />
+          </Box>
 
+          <Box pos='relative' bg='white' zIndex={30}>
 
-        <Charting />
+            <OnBoard />
+            <Slider1 />
+            <Charting />
+            <Slider2 />
+            <Notable />
+            <Vista />
+            <Map />
+          </Box>
 
+          <Box ref={target3} pos='relative'  zIndex={10}>
+            <MaskMover target={target3}>
+              <Img draggable='false' fit='cover' dimension='1920x900' h='full' w='full' src={'./images/fixed.jpg'} />
+            </MaskMover>
 
-        <Slider2 />
+            <Box pos='absolute' backdropFilter={'blur(5px) '} inset='0 0 0 0' zIndex={12} />
 
+            <Box
+            pos='absolute'
+            inset='0 0 0 0'
+            display={{base: 'block', d:'none'}}
+          >
+            <Img draggable='false' fit='cover' dimension='1920x900' h='full' w='full' src={'./images/fixed.jpg'} />
+          </Box>
 
-        <Notable />
+          <Box pos='relative' zIndex={20}>
+            <Footer />
+          </Box>
+        </Box>
 
-
-        <Vista />
-
-        <Map />
-
-
-        {/* <Footer /> */}
       </Box>
 
     </Layout>

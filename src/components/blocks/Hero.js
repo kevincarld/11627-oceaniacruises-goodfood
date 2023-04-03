@@ -5,12 +5,13 @@ import { mock } from 'utils/common'
 import Container from '../util/Container'
 import Img from '../util/Img'
 import Figure from 'components/util/Figure'
+import Mover from 'components/util/Mover'
 
-
+import { ScrollerMotion } from 'scroller-motion'
 export default function Hero() {
 
   return (
-    <Box pt='54px'>
+    <Box pt='54px' pos='relative' zIndex={123}>
       <Grid
         justifyContent='center'
         alignItems='center'

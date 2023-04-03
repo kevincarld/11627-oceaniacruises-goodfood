@@ -10,7 +10,7 @@ import Figure from 'components/util/Figure'
 export default function Finest() {
 
   return (
-    <Box >
+    <Box pos='relative' zIndex={20} bg='white'>
       <Container>
 
         <Grid templateColumns={{lg:"6fr 6fr", wide: '8fr 4fr'}}>
