@@ -80,12 +80,12 @@ const MotionLayout = ({ children }) => {
   const [isDesktop] = useMediaQuery(`(min-width: 1280px)`)
 
   return (
-    <ParallaxProvider>
-      <ScrollerMotion disabled={!isDesktop}>
-        <MastheadProvider>
-          {children}
-        </MastheadProvider>
-      </ScrollerMotion>
-    </ParallaxProvider>
+      <MastheadProvider>
+        <ParallaxProvider>
+              <ScrollerMotion disabled={!isDesktop}>
+                  {children}
+              </ScrollerMotion>
+        </ParallaxProvider>
+      </MastheadProvider>
   )
 }
