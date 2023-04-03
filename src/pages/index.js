@@ -19,6 +19,8 @@ import { Box } from "@chakra-ui/react"
 import Img from "components/util/Img"
 import { useRef } from "react"
 import MaskMover from "components/util/MaskMover"
+import FeatureHeader from "components/util/FeatureHeader"
+import FeatureFooter from "components/util/FeatureFooter"
 
 export default function Home() {
   const target= useRef(null)
@@ -27,6 +29,7 @@ export default function Home() {
   return (
     <Layout>
       <Box pos='relative' overflow='hidden'>
+        <FeatureHeader />
 
         <Hero />
 
@@ -98,6 +101,8 @@ export default function Home() {
           <Box pos='relative' zIndex={20}>
             <Footer />
           </Box>
+
+          <FeatureFooter />
         </Box>
 
       </Box>

@@ -3,6 +3,21 @@ import { Global } from '@emotion/react'
 const GlobalCss = () => (
   <Global
     styles={`
+    #goodfood-hat >#Shape {
+      fill: #B1A664!important;
+    }
+    #goodfood-hat >#Shape+#Shape {
+      fill: #FFF!important;
+    }
+
+    #goodfood-logo >g >path:nth-child(1){
+      fill: #B1A664!important;
+    }
+
+    #goodfood-logo >g >g path {
+      fill: #B1A664!important;
+    }
+
       @font-face {
         font-family: 'localGpro';
         src: url('./fonts/AGaramondPro-Regular.woff2') format('woff2'),

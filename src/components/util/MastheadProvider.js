@@ -6,9 +6,9 @@ export default function MastheadProvider({children}) {
   // set default config
   const config = {
     headerConfig: {
-      logoColor: "white",
-      textColor: "white",
-      bgColor: "#0A1633",
+      logoColor: "black",
+      textColor: "black",
+      bgColor: "white",
       css: {
         boxShadow: "0px 3px 6px 0px rgba(0, 0, 0, 0.16)",
         position: 'fixed',
@@ -17,9 +17,9 @@ export default function MastheadProvider({children}) {
       }
     },
     footerConfig: {
-      logoColor: "white",
-      textColor: "white",
-      bgColor: "#0A1633",
+      logoColor: "black",
+      textColor: "black",
+      bgColor: "white",
     },
   }
 

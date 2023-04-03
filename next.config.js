@@ -30,8 +30,8 @@ const nextConfig = {
     },
     jobCode: '11627-oceaniacruises-goodfood', // used for nine ga scripts
     guidelines: false, // shows or hides layout guideline bars
-    activateMasthead: false, // shows or hides masthead
-    mastheadOverride: false, // overrides masthead that's pulling from hostname: e.g honey,style,travel,kitchen,you,parenting,coach,pets,celebrity
+    activateMasthead: true, // shows or hides masthead
+    mastheadOverride: 'goodfood', // overrides masthead that's pulling from hostname: e.g honey,style,travel,kitchen,you,parenting,coach,pets,celebrity
   }
 }
 
