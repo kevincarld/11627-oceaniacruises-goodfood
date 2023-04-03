@@ -31,7 +31,7 @@ export default function Home() {
       <Box pos='relative' overflow='hidden'>
         <FeatureHeader href='https://www.oceaniacruises.com/' />
 
-        <Hero />
+        {/* <Hero />
 
         <Box ref={target} pos='relative' zIndex={10}>
           <MaskMover target={target}>
@@ -70,17 +70,17 @@ export default function Home() {
           </Box>
 
             <Adventure />
-          </Box>
+          </Box> */}
 
           <Box pos='relative' bg='white' zIndex={30}>
-
+{/*
             <OnBoard />
             <Slider1 />
             <Charting />
             <Slider2 />
             <Notable />
-            <Vista />
-            {/* <Map /> */}
+            <Vista /> */}
+            <Map />
           </Box>
 
           <Box ref={target3} pos='relative' zIndex={10} minH={{d: '1154px'}}>

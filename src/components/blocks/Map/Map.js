@@ -36,11 +36,18 @@ export default function Map() {
 
   return (
     <Box ref={containerRef}>
-      <Figure pos='relative' overflow='hidden'>
-        <Img display={{base: 'block', d: 'none'}} dimension='750x1704' w='full'  src='./images/map-mob.png' alt='map' draggable='false' />
-        <Img display={{base: 'none', d: 'block'}} dimension='1920x1555' mx='auto' src='./images/map.png' alt='map' draggable='false' />
+      <Box pos='relative' overflow='hidden'>
+        <Box pos='absolute' display={
+          (dubro.isOpen || corfu.isOpen || argo.isOpen || messina.isOpen || sorrento.isOpen || rome.isOpen || zadar.isOpen || venice.isOpen )
+            ? 'block'
+            : 'none'
+        }
+        backdropFilter={'blur(3px) '} bg='rgba(246,241,232, .3)' inset='0 0 0 0' zIndex={30} />
 
-        <Box pos='absolute' inset={{base: '10% 0 auto 0', md:'15% 0 auto 0', lg: '20% 0 auto 0', d: '40px 0 auto 0', wide: '12% 0 auto 0'}}>
+        <Img display={{base: 'block', d: 'none'}} dimension='750x1704' w='full'  src='./images/map-mob.png' alt='map' draggable='false' />
+        <Img pos='relative' zIndex='15' display={{base: 'none', d: 'block'}} dimension='1920x1555' mx='auto' src='./images/map.png' alt='map' draggable='false' />
+
+        <Box zIndex={25} pos='absolute' inset={{base: '10% 0 auto 0', md:'15% 0 auto 0', lg: '20% 0 auto 0', d: '40px 0 auto 0', wide: '12% 0 auto 0'}}>
           <Box display={{base: 'block', md: 'none'}} as='svg' maxW={{base: '95%', sm: 'none'}} mx='auto' width="324.576" height="168.396" viewBox="0 0 324.576 168.396">
             <g id="Group_6964" data-name="Group 6964" transform="translate(-455.266 -990.346)">
               <text id="Voyage" transform="translate(561.266 1057.346)" fill="#c3a873" font-size="101" font-family="Sloop-ScriptOne, Sloop"><tspan x="-105.898" y="0">Voyage</tspan></text>
@@ -67,7 +74,7 @@ export default function Map() {
         {/* desktop clickers */}
         <DesktopClickers desktopScale={desktopScale} controllers={{dubro,corfu,argo,messina,sorrento,rome,zadar,venice}}/>
 
-      </Figure>
+      </Box>
     </Box>
   )
 }
