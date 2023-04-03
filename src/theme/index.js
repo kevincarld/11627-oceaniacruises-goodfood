@@ -21,6 +21,7 @@ const customTheme = extendTheme({
     heading: "adobe-garamond-pro, Adobe GaramlocalGpro, serif",
     adobe: "adobe-garamond-pro, Adobe GaramlocalGpro, serif",
     sloop: "sloop-script-three, sloop",
+    sloopone: "sloop-script-one, sloop",
     mono: "Menlo, monospace",
   },
   colors: {
