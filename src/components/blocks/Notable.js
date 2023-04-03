@@ -6,6 +6,7 @@ import Container from '../util/Container'
 import Img from '../util/Img'
 import Figure from 'components/util/Figure'
 import NineLink from 'components/util/NineLink'
+import Mover from 'components/util/Mover'
 
 export default function Notable() {
 
@@ -14,7 +15,9 @@ export default function Notable() {
       <Flex gap={{lg:'53px'}} pt={{lg:'76px'}} direction={{base:'column-reverse', lg:'row'}}>
 
         <Box ml={{d:'-182px'}}>
-          <Img dimension='780x473' w={{base: 'full'}} fit='cover' src='./images/notable-1.jpg'/>
+          <Mover y={[0,-10]}>
+            <Img dimension='780x473' w={{base: 'full'}} fit='cover' src='./images/notable-1.jpg'/>
+          </Mover>
         </Box>
 
         <Box p={{base: '69px 15px 47px 18px'}} pt={{lg:0}} maxW={{lg:'456px'}} >

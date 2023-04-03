@@ -5,14 +5,16 @@ import { mock } from 'utils/common'
 import Container from '../util/Container'
 import Img from '../util/Img'
 import Figure from 'components/util/Figure'
-
+import Mover from 'components/util/Mover'
 
 export default function Charting() {
 
   return (
     <Grid maxW={'1920px'} mx='auto' gridTemplateColumns={{d:'6fr 6fr',wide:'7fr 5fr'}} gap={{d:'51px'}} pt={{d:'93px'}} pb={{d:'43px'}}>
       <GridItem >
-        <Img dimension='1072x631' w={{base: 'full'}} fit='cover' src='./images/charting-1.jpg'/>
+        <Mover x={[-10,0]}>
+          <Img dimension='1072x631' w={{base: 'full'}} fit='cover' src='./images/charting-1.jpg'/>
+        </Mover>
         <Flex  direction='column' justify='center' align='center'  pt={{base:'32px',d:'70px'}} pl={{base:'18px'}} pr={{base:'18px'}} pb={{base:'45px'}}>
 
           <Flex mt={{base:'20px'}} align={{d:'end'}} textAlign='center'direction={{base:'column' ,d:'row'}}>
@@ -26,7 +28,9 @@ export default function Charting() {
         </Flex>
       </GridItem>
       <GridItem mt={{d:'142px'}}>
-        <Img dimension='793x866' w={{base: 'full'}} h='full' fit='cover' src='./images/charting-2.jpg'/>
+        <Mover x={[10,-5]}>
+          <Img dimension='793x866' w={{base: 'full'}} h='full' fit='cover' src='./images/charting-2.jpg'/>
+        </Mover>
       </GridItem>
     </Grid>
   )

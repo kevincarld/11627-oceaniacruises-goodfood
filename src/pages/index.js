@@ -80,7 +80,7 @@ export default function Home() {
             <Slider2 />
             <Notable />
             <Vista />
-            <Map />
+            {/* <Map /> */}
           </Box>
 
           <Box ref={target3} pos='relative' zIndex={10} minH={{d: '1154px'}}>
