@@ -46,7 +46,7 @@ export default function Footer() {
             Call 1300 355 200 or consult your travel advisor.
           </Text>
 
-          <Button as={Link} href='https://www.oceaniacruises.com/' target='_blank' referrer='sponsored noreferrer' _hover={{textDecor:'none'}} bgColor='primary' color='white' p={{base:'13px 48px'}} borderRadius='0' mt={{base:'20px'}} >
+          <Button as={Link} href='https://ad.doubleclick.net/ddm/clk/554902770;362639625;q' target='_blank' referrer='sponsored noreferrer' _hover={{textDecor:'none'}} bgColor='primary' color='white' p={{base:'13px 48px'}} borderRadius='0' mt={{base:'20px'}} >
             READ MORE
           </Button>
 
