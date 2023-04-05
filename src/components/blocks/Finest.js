@@ -54,7 +54,7 @@ export default function Finest() {
             </Mover>
 
             <Text mr={{ wide: '-140px'}} ml={{hd: '30px'}} maxW={{lg:"445px", hd: '490px'}} mt="52px" mb="69px" px={{base:"18px", lg: "0"}} pr={{lg:"35px", d:0}} {...texts.content}>
-              “Rivalling the world’s best shore-side restaurants is no small feat and has been Oceania Cruises’ distinguishing achievement through our unwavering commitment to the finest quality produce and perfectly crafted recipes,” says Jason Worth, Vice President Sales and General Manager Asia Pacific.
+              “Rivalling the world’s best shoreside restaurants is no small feat and has been Oceania Cruises’ distinguishing achievement through our unwavering commitment to the finest quality produce and perfectly crafted recipes,” says Jason Worth, Vice President Sales and General Manager Asia Pacific.
               Oceania Cruises is committed to discovering and sourcing the best possible ingredients from around the world. “Our premium French Planchot flour is custom milled to exact specifications, our prized Castilla-La Mancha saffron is cultivated in Spain’s heartland, and our superb lobster has been supplied by the same father-son team from southern Nova Scotia since Oceania Cruises’ inception 20 years ago,” Worth explains.
             </Text>
           </GridItem>
@@ -85,7 +85,7 @@ export default function Finest() {
           </Figure>
 
           <PreLine {...texts.content} mt={{base: "59px", wide: '80px'}} maxW={{lg:'445px'}} ml={{lg:'40px', wide: '100px'}} px={{base: '18px', lg: 0}}>
-            {`Oceania Cruises’ chefs hail from more than 40 countries, guided by Executive Culinary Director Jacques Pépin, the French-American celebrity TV chef and cookbook author, and formerly a personal chef to three French presidents.
+            {`Oceania Cruises’ chefs hail from more than 40 countries, guided by Executive Culinary Director Jacques P`}<span style={{fontFamily:'sans serif'}}>é</span>{`pin, the French-American celebrity TV chef and cookbook author, and formerly a personal chef to three French presidents.
 
             Guests have a raft of diverse speciality dining venues to choose from, such as classic American steakhouse Polo Grill, authentic Italian fare at Toscana, and Red Ginger for bold pan-Asian cuisine, including two of the most popular dishes on board, the duck and watermelon salad, and lobster pad thai. “Our take on the classic pad thai is light, fragrant and not too spicy – although you can add an extra kick if your palate prefers,” says Worth.`}
           </PreLine>
@@ -118,7 +118,7 @@ export default function Finest() {
 
               <Box pos='relative'>
                 <Text {...texts.quote} mt="20px" display={{base: 'block', d: 'none'}} >
-                  Rivalling the world’s best shore-side restaurants is no small feat and has been Oceania Cruises’ distinguishing Achievement.
+                  Rivalling the world’s best shoreside restaurants is no small feat and has been Oceania Cruises’ distinguishing Achievement.
                 </Text>
 
                 <PreLine pos='relative' {...texts.quote} mt="23px" display={{base: 'none', d: 'block'}}>

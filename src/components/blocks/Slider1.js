@@ -159,17 +159,6 @@ export default function Slider1() {
       </Box>
     </Box>
 
-    <Text
-      fontFamily={'heading'}
-      textAlign={'center'}
-      fontSize={{base: '13px'}}
-      lineHeight={{base: '16px'}}
-      fontStyle={'italic'}
-      color={'darkprimary'}
-      mt={{base: '20px'}}
-    >
-      Swipe to see more photos of Oceania Cruises
-    </Text>
   </Box>
 
   )
